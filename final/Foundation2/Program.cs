@@ -10,7 +10,9 @@ class Program
         Customer customer2 = CreateCustomerFromUserInput();
 
         // Create orders using user inputs
+        Console.WriteLine("\n Please enter details for your first order:")
         Order order1 = CreateOrderFromUserInput(customer1);
+        Console.WriteLine("\n Please enter details for your second order:")
         Order order2 = CreateOrderFromUserInput(customer2);
 
         // Display information
